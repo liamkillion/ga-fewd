@@ -1,0 +1,19 @@
+.box {
+	background-color: grey;
+	border: 1px solid black;
+	height: 100px;
+}
+
+.middle {
+	height: 400px;
+}
+
+.missing {
+	background-color: white;
+	border: none;
+}
+
+.nav-box {
+	height: 50px;
+	margin-top: 25px;
+}
