@@ -1,0 +1,54 @@
+header {
+	background-color: black;
+	color: white;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+header nav {
+	text-align: right;
+	padding-top: 20px;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width:770px) {
+	h1 {
+		display: inline;
+	}	
+
+	header nav {
+		display: none;
+	}
+
+	header nav a {
+		display: none;
+	}
+
+/*	#nav-btn { 
+		background: transparent; 
+		border-bottom: 23px double white; 
+		border-top: 8px solid white;
+		height: 7px; 
+		width: 37px;
+		float: right;
+	}*/
+
+	#hamburger {
+		position: absolute;
+		right: 10px;
+		top: 20px;
+		padding-bottom: 20px;
+		background: transparent;
+	}
+
+	div {
+		background-color: white;
+		height: 5px;
+		width: 20px;
+		margin: 3px;
+	}
+}	
