@@ -1,0 +1,39 @@
+.dropdown {
+	display: inline-block;
+}
+
+button {
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 10px;
+	width: 70px;
+	text-align: center;
+	margin: 10px 0px 0px 10px;
+	background-color: white;
+}
+
+button:hover {
+	background-color: grey;
+}
+
+button:focus {
+	background-color: grey;
+}
+
+.menu {
+	border: 1px black solid;
+	border-radius: 5px;
+	width: 90px;
+	margin-top: 5px;
+	margin-left: 15px;
+	box-shadow: 1px 2px grey;
+	display: none;
+}
+
+p {
+	padding: 5px;
+}
+
+p:hover {
+	background-color: rgba(0, 0, 255, 0.3);
+}
